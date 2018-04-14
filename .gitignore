@@ -9,9 +9,11 @@
 *.iml
 app/.idea/workspace.xml
 app/.idea/gradle.xml
-app/.idea/gradle/
 app/.idea/misc.xml
 app/.idea/vcs.xml
+
+app/.gradle/*
+
 
 #### JAVA
 
@@ -35,5 +37,3 @@ app/.idea/vcs.xml
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
