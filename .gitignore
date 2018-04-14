@@ -4,16 +4,23 @@
 .DS_Store
 
 
-#### INTELLIJ
+#### APP
 
-*.iml
+
 app/.idea/workspace.xml
 app/.idea/gradle.xml
 app/.idea/misc.xml
 app/.idea/vcs.xml
-
+app/.idea/kotlinc.xml
 app/.gradle/*
 
+app/back/build/
+app/front/build/
+
+
+#### IDE
+
+*.iml
 
 #### JAVA
 
