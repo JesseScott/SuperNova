@@ -1,0 +1,9 @@
+rootProject.name = 'supernova'
+include 'backend'
+include 'frontend'
+rootProject.name = 'supernova'
+include 'back'
+findProject(':back')?.name = 'backend'
+include 'front'
+findProject(':front')?.name = 'frontend'
+
