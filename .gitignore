@@ -1,3 +1,18 @@
+
+#### OSX
+
+.DS_Store
+
+
+#### INTELLIJ
+
+*.iml
+
+
+
+
+#### JAVA
+
 # Compiled class file
 *.class
 
