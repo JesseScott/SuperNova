@@ -7,6 +7,11 @@ import io.ktor.routing.*
 import io.ktor.server.engine.*
 import io.ktor.server.netty.*
 
+
+fun Application.module() {
+
+}
+
 fun main(args: Array<String>) {
     embeddedServer(Netty, 8080) {
         routing {
